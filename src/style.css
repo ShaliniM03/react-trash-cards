@@ -1,0 +1,33 @@
+h1,
+p {
+  font-family: Lato;
+  padding: 0;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.mainCard:nth-child(4n + 1) {
+  border-left: 8px solid red;
+}
+.mainCard:nth-child(4n + 2) {
+  border-left: 8px solid purple;
+}
+.mainCard:nth-child(4n + 3) {
+  border-left: 8px solid brown;
+}
+.mainCard:nth-child(4n) {
+  border-left: 8px solid blue;
+}
+.mainCard {
+  padding: 10px;
+  box-shadow: 0px 0px 2px 2px rgb(209, 203, 203);
+  border-radius: 5px;
+  width: 150px;
+  margin: 10px 5px;
+}
+.mainCard_text1 {
+  font-size: 16px;
+}
